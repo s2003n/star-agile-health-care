@@ -17,7 +17,7 @@ spec:
          env: test  # This targets the test-labeled node
       containers:
         - name: my-app
-          image: sachinbacha/medicure:latest
+          image: saikumar2003/medicure:latest
           ports:
             - containerPort: 9090
 
