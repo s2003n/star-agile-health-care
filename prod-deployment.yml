@@ -14,7 +14,7 @@ spec:
         app: my-app
     spec:
       nodeSelector:
-          env: prod  # This targets nodes labeled as prod
+          env: production  # This targets nodes labeled as production
       containers:
         - name: my-app
           image: saikumar2003/medicure:latest
